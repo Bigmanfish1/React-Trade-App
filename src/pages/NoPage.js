@@ -1,0 +1,12 @@
+
+
+const NoPage = () => {
+    return (
+        <div>
+            <h1>404: Page Not Found</h1>
+            <h2>Please try another page.</h2>
+        </div>
+    );
+}
+
+export default NoPage;
