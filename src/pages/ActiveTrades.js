@@ -2,14 +2,14 @@ import CryptoJS from 'crypto-js';
 import { useEffect, useState } from 'react';
 import ActiveOrder from './ActiveOrder';
 
-function ViewActiveTrades(props) {
-    const fetchActiveTrades = (symbol) => {
-        alert("Here are the active trades for " + symbol);
-    }
-    return (
-        <button className='btn btn-primary btn-lg mx-3 px-5 py-3 mt-2' onClick={() => fetchActiveTrades(props.symbol)}>View Active Trades</button>
-    );
-}
+// function ViewActiveTrades(props) {
+//     const fetchActiveTrades = (symbol) => {
+//         alert("Here are the active trades for " + symbol);
+//     }
+//     return (
+//         <button className='btn btn-primary btn-lg mx-3 px-5 py-3 mt-2' onClick={() => fetchActiveTrades(props.symbol)}>View Active Trades</button>
+//     );
+// }
 
 
 
