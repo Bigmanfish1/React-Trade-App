@@ -4,7 +4,7 @@ const NoPage = () => {
     return (
         <div>
             <h1>404: Page Not Found</h1>
-            <h2>Please try another page.</h2>
+            <h2>Please try loading another page.</h2>
         </div>
     );
 }
