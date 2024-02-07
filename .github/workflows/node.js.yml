@@ -35,6 +35,12 @@ jobs:
       - name: Install dependencies
         run: npm i
 
+      - name: Check if Bootstrap is installed
+        run: |
+          if [ ! -d "node_modules/bootstrap" ]; then
+            npm install bootstrap
+          fi
+          
       # build the react app
       - name: Build
         run: npm run build
