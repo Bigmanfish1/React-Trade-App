@@ -1,7 +1,6 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://bigmanfish1.github.io/React-Trade-App",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.23.8",
